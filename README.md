@@ -67,17 +67,6 @@ Arquitetura do Projeto
 
 - Sistema resiliente com tratamento de erros por camada
 
-Fluxo do Sistema
-
-
-flowchart TD
-A[Leitura CSV] --> B[Parser de Dados]
-B --> C[Mapeamento por Estado]
-C --> D[Cálculo Estatístico]
-D --> E[Geração de Relatório]
-E --> F[Exportação TXT]
-
-
 Melhorias Futuras
 📈 Geração de gráficos estatísticos
 🗄️ Integração com banco de dados
