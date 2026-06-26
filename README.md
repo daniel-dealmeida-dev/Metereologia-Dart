@@ -68,8 +68,8 @@ Arquitetura do Projeto
 - Sistema resiliente com tratamento de erros por camada
 
 Melhorias Futuras
-📈 Geração de gráficos estatísticos
-🗄️ Integração com banco de dados
-🌐 Interface web para visualização dos dados
-⚡ Otimização para grandes volumes de CSV
-🔍 Filtros avançados por região e período
+- Geração de gráficos estatísticos
+- Integração com banco de dados
+- Interface web para visualização dos dados
+- Otimização para grandes volumes de CSV
+- Filtros avançados por região e período
