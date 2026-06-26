@@ -1,0 +1,116 @@
+
+-- RELATÓRIO DE UMIDADE --
+
+-----------------------------------
+ESTADO: SP | ANO: 2024
+----------------------------------
+   Mês: Janeiro
+Média:  0.0147 kg/kg
+Máxima: 0.0204 kg/kg
+Mínima: 0.0093 kg/kg
+   Mês: Fevereiro
+Média:  0.0153 kg/kg
+Máxima: 0.0211 kg/kg
+Mínima: 0.0113 kg/kg
+   Mês: Março
+Média:  0.0147 kg/kg
+Máxima: 0.0199 kg/kg
+Mínima: 0.0110 kg/kg
+   Mês: Abril
+Média:  0.0122 kg/kg
+Máxima: 0.0165 kg/kg
+Mínima: 0.0087 kg/kg
+   Mês: Maio
+Média:  0.0114 kg/kg
+Máxima: 0.0159 kg/kg
+Mínima: 0.0079 kg/kg
+   Mês: Junho
+Média:  0.0109 kg/kg
+Máxima: 0.0148 kg/kg
+Mínima: 0.0056 kg/kg
+   Mês: Julho
+Média:  0.0097 kg/kg
+Máxima: 0.0126 kg/kg
+Mínima: 0.0071 kg/kg
+   Mês: Agosto
+Média:  0.0092 kg/kg
+Máxima: 0.0135 kg/kg
+Mínima: 0.0049 kg/kg
+   Mês: Setembro
+Média:  0.0110 kg/kg
+Máxima: 0.0143 kg/kg
+Mínima: 0.0068 kg/kg
+   Mês: Outubro
+Média:  0.0118 kg/kg
+Máxima: 0.0163 kg/kg
+Mínima: 0.0073 kg/kg
+   Mês: Novembro
+Média:  0.0120 kg/kg
+Máxima: 0.0156 kg/kg
+Mínima: 0.0063 kg/kg
+   Mês: Dezembro
+Média:  0.0125 kg/kg
+Máxima: 0.0199 kg/kg
+Mínima: 0.0065 kg/kg
+
+ CONSOLIDADO ANUAL (SP):
+     Média Geral:  0.0121 kg/kg
+     Máxima Geral: 0.0211 kg/kg
+     Mínima Geral: 0.0049 kg/kg
+
+-----------------------------------
+ESTADO: SC | ANO: 2024
+----------------------------------
+   Mês: Janeiro
+Média:  0.0173 kg/kg
+Máxima: 0.0291 kg/kg
+Mínima: 0.0121 kg/kg
+   Mês: Fevereiro
+Média:  0.0168 kg/kg
+Máxima: 0.0224 kg/kg
+Mínima: 0.0102 kg/kg
+   Mês: Março
+Média:  0.0164 kg/kg
+Máxima: 0.0223 kg/kg
+Mínima: 0.0100 kg/kg
+   Mês: Abril
+Média:  0.0135 kg/kg
+Máxima: 0.0195 kg/kg
+Mínima: 0.0080 kg/kg
+   Mês: Maio
+Média:  0.0112 kg/kg
+Máxima: 0.0164 kg/kg
+Mínima: 0.0056 kg/kg
+   Mês: Junho
+Média:  0.0101 kg/kg
+Máxima: 0.0175 kg/kg
+Mínima: 0.0043 kg/kg
+   Mês: Julho
+Média:  0.0106 kg/kg
+Máxima: 0.0143 kg/kg
+Mínima: 0.0047 kg/kg
+   Mês: Agosto
+Média:  0.0103 kg/kg
+Máxima: 0.0146 kg/kg
+Mínima: 0.0033 kg/kg
+   Mês: Setembro
+Média:  0.0122 kg/kg
+Máxima: 0.0156 kg/kg
+Mínima: 0.0074 kg/kg
+   Mês: Outubro
+Média:  0.0123 kg/kg
+Máxima: 0.0183 kg/kg
+Mínima: 0.0059 kg/kg
+   Mês: Novembro
+Média:  0.0135 kg/kg
+Máxima: 0.0205 kg/kg
+Mínima: 0.0072 kg/kg
+   Mês: Dezembro
+Média:  0.0142 kg/kg
+Máxima: 0.0214 kg/kg
+Mínima: 0.0088 kg/kg
+
+ CONSOLIDADO ANUAL (SC):
+     Média Geral:  0.0132 kg/kg
+     Máxima Geral: 0.0291 kg/kg
+     Mínima Geral: 0.0033 kg/kg

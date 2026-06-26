@@ -1,0 +1,33 @@
+{
+  "roots": [
+    "atividade_final_dart"
+  ],
+  "packages": [
+    {
+      "name": "atividade_final_dart",
+      "version": "1.0.0",
+      "dependencies": [
+        "ansicolor",
+        "path",
+        "yaansi"
+      ],
+      "devDependencies": []
+    },
+    {
+      "name": "ansicolor",
+      "version": "2.0.3",
+      "dependencies": []
+    },
+    {
+      "name": "yaansi",
+      "version": "1.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}

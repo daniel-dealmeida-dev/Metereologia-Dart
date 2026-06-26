@@ -1,0 +1,34 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "ansicolor",
+      "rootUri": "file:///C:/Users/cisne/AppData/Local/Pub/Cache/hosted/pub.dev/ansicolor-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///C:/Users/cisne/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "yaansi",
+      "rootUri": "file:///C:/Users/cisne/AppData/Local/Pub/Cache/hosted/pub.dev/yaansi-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "atividade_final_dart",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.12.0",
+  "flutterRoot": "file:///D:/Lince%20Academy/flutter",
+  "flutterVersion": "3.44.0",
+  "pubCache": "file:///C:/Users/cisne/AppData/Local/Pub/Cache"
+}

@@ -1,0 +1,11 @@
+name: atividade_final_dart
+description: "Atividade final: relatorio meteorologico."
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  path: ^1.9.1
+  yaansi: ^1.0.0
+  ansicolor: ^2.0.3
