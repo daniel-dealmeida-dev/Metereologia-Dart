@@ -55,15 +55,16 @@ Arquitetura do Projeto
 └── README.md
 ```
  Destaques Técnicos
-🔹 Sistema de parsing dinâmico de CSV com mapeamento de cabeçalhos
-🔹 Processamento otimizado com estruturas em memória (Map)
-🔹 Separação clara de responsabilidades via MVC
-🔹 Processamento assíncrono para evitar bloqueio de I/O
-🔹 Geração eficiente de relatórios com StringBuffer
+🔹 Parsing dinâmico de CSV com mapeamento automático de colunas
+🔹 Processamento eficiente em memória com Map hierárquico
+🔹 Arquitetura MVC desacoplada e modular
+🔹 Execução assíncrona para leitura de arquivos grandes
+🔹 Geração otimizada de relatórios com StringBuffer
 🔹 Sistema resiliente com tratamento de erros por camada
 
 Fluxo do Sistema
 flowchart TD
+
 A[Leitura CSV] --> B[Parser de Dados]
 B --> C[Mapeamento por Estado]
 C --> D[Cálculo Estatístico]
