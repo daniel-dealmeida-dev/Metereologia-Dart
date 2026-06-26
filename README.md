@@ -1,26 +1,38 @@
-#  Sistema de Análise Meteorológica (Lince Tech Academy)
+Sistema de Análise Meteorológica (Dart CLI)
 
-Este projeto consiste em uma aplicação de linha de comando (CLI) desenvolvida em **Dart** para processamento, análise e exportação de dados climáticos. O sistema foi desenhado para auxiliar na compilação de relatórios comparativos entre os estados de São Paulo (SP) e Santa Catarina (SC), processando volumes de dados de sensores meteorológicos.
+Aplicação de linha de comando desenvolvida em Dart para processamento, análise e exportação de dados meteorológicos. O sistema processa arquivos CSV e gera relatórios estatísticos comparando dados climáticos entre estados brasileiros.
 
-##  Funcionalidades Principais
+Funcionalidades:
+  Leitura de arquivos CSV por estado, ano e mês
+Cálculo de estatísticas:
+Média
+Mínimo
+Máximo
+Moda do vento
+Conversão de unidades:
+Celsius, Fahrenheit e Kelvin
+m/s, km/h e mph
+ Interface CLI interativa com feedback visual (yaansi)
+ Exportação de relatórios em .txt
+ Limpeza automática de caracteres ANSI nos arquivos
+Linguagem
 
-* **Processamento de Dados:** Leitura assíncrona de arquivos `.csv` organizados por UF, ano e mês.
-* **Análise Estatística:** Cálculo de médias, valores máximos, mínimos e moda estatística (direção do vento).
-* **Conversão de Unidades:** Suporte nativo para conversões complexas:
-    * **Temperatura:** Celsius, Fahrenheit e Kelvin.
-    * **Vento:** m/s, km/h e mph.
-* **Interface Interativa:** Menu intuitivo com feedback visual via cores no terminal (utilizando `yaansi`).
-* **Exportação de Relatórios:** Opção de salvar análises consolidadas em arquivos `.txt` (com limpeza automática de códigos ANSI).
+Dart
 
-##  Tecnologias e Conceitos Aplicados
+Arquitetura
 
-* **Linguagem:** Dart (foco em *Clean Code* e tipagem forte).
-* **Arquitetura (MVC):** Utilizada para garantir o **baixo acoplamento**. Ao separar a lógica de negócio (Model) da camada de exibição (View), permiti que o sistema fosse modular e facilmente testável, independentemente de onde ou como os dados são apresentados.
-* **Assincronismo:** Uso de `Future` e `async/await` para operações de I/O (Entrada/Saída) não bloqueantes. Escolhi esta abordagem para evitar que o programa "trave" enquanto aguarda a leitura de grandes volumes de dados no disco rígido.
-* **Manipulação de Dados:** Utilização de `Map` hierárquico. Essa estrutura foi escolhida para otimizar o tempo de busca; com ela, não é necessário reprocessar todos os arquivos a cada consulta, garantindo performance em tempo real.
-* **Tratamento de Erros:** Implementação de `try/catch` em camadas críticas. O objetivo foi oferecer uma experiência de uso resiliente, onde falhas em arquivos individuais não interrompem a aplicação.
+MVC (Model-View-Controller)
+Separação de responsabilidades
 
-##  Estrutura do Projeto
+Conceitos
+
+Programação assíncrona (async/await, Future)
+Estruturas de dados (Map hierárquico)
+Manipulação de arquivos (CSV / TXT)
+Tratamento de exceções (try/catch)
+Otimização com StringBuffer
+
+Arquitetura do Projeto
 
 ```text
 /
@@ -42,11 +54,26 @@ Este projeto consiste em uma aplicação de linha de comando (CLI) desenvolvida 
 ├── pubspec.yaml            # Gerenciamento de dependências
 └── README.md
 ```
- ## Jornada de Desenvolvimento
-O maior desafio deste projeto foi lidar com a variedade dos dados de entrada. Implementei um mapeador dinâmico de cabeçalhos, tornando o sistema capaz de identificar colunas automaticamente, o que evita erros humanos caso o formato do CSV mude levemente.
+ Destaques Técnicos
+🔹 Sistema de parsing dinâmico de CSV com mapeamento de cabeçalhos
+🔹 Processamento otimizado com estruturas em memória (Map)
+🔹 Separação clara de responsabilidades via MVC
+🔹 Processamento assíncrono para evitar bloqueio de I/O
+🔹 Geração eficiente de relatórios com StringBuffer
+🔹 Sistema resiliente com tratamento de erros por camada
 
-Além disso, a escolha por StringBuffer na construção dos relatórios foi para evitar a alocação excessiva de memória durante a concatenação de strings(pensando em um futuro escalonamento), mantendo o consumo de recursos otimizado mesmo com relatórios mais extensos. A organização em camadas (Model-View-Controller) para que, ao evoluir a aplicação (como adicionar uma nova métrica), eu pudesse alterar apenas o Model correspondente, sem impacto na interface ou no Controller.
+Fluxo do Sistema
+flowchart TD
+A[Leitura CSV] --> B[Parser de Dados]
+B --> C[Mapeamento por Estado]
+C --> D[Cálculo Estatístico]
+D --> E[Geração de Relatório]
+E --> F[Exportação TXT]
 
-Tive uma dificuldade especial em relação ao relatório de ventos devido ao método de arredondamento escolhido inicialmente, dessa forma precisei fazer algumas refatorações para corrigir esse tipo de problema relacionado aos dados obtidos em CSV. Por conta disso o modelo MVC se mostrou bastante útil pra debug e principalmente para posteriomente corrigir esses bugs.
 
-Desenvolvido como desafio final para o Lince Tech Academy.
+Melhorias Futuras
+📈 Geração de gráficos estatísticos
+🗄️ Integração com banco de dados
+🌐 Interface web para visualização dos dados
+⚡ Otimização para grandes volumes de CSV
+🔍 Filtros avançados por região e período
